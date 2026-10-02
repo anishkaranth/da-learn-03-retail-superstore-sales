@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="431.264219pt" height="268.279016pt" viewBox="0 0 431.264219 268.279016" version="1.1" font-family="sans-serif">
+<defs>
+<style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+</defs>
+<path d="M 0 268 L 431 268 L 431 0 L 0 0 z" style="fill:#ffffff"/>
+<path d="M 67 232 L 424 232 L 424 21 L 67 21 z" style="fill:#ffffff"/>
+<path d="M 173 223 L 114 223 L 114 213 L 173 213 z" style="fill:#e07a5f"/>
+<path d="M 173 211 L 162 211 L 162 202 L 173 202 z" style="fill:#e07a5f"/>
+<path d="M 173 200 L 169 200 L 169 191 L 173 191 z" style="fill:#e07a5f"/>
+<path d="M 173 188 L 177 188 L 177 179 L 173 179 z" style="fill:#1f6f8b"/>
+<path d="M 173 177 L 185 177 L 185 168 L 173 168 z" style="fill:#1f6f8b"/>
+<path d="M 173 166 L 192 166 L 192 156 L 173 156 z" style="fill:#1f6f8b"/>
+<path d="M 173 154 L 195 154 L 195 145 L 173 145 z" style="fill:#1f6f8b"/>
+<path d="M 173 143 L 197 143 L 197 134 L 173 134 z" style="fill:#1f6f8b"/>
+<path d="M 173 131 L 217 131 L 217 122 L 173 122 z" style="fill:#1f6f8b"/>
+<path d="M 173 120 L 234 120 L 234 111 L 173 111 z" style="fill:#1f6f8b"/>
+<path d="M 173 109 L 244 109 L 244 99 L 173 99 z" style="fill:#1f6f8b"/>
+<path d="M 173 97 L 262 97 L 262 88 L 173 88 z" style="fill:#1f6f8b"/>
+<path d="M 173 86 L 274 86 L 274 77 L 173 77 z" style="fill:#1f6f8b"/>
+<path d="M 173 74 L 287 74 L 287 65 L 173 65 z" style="fill:#1f6f8b"/>
+<path d="M 173 63 L 313 63 L 313 54 L 173 54 z" style="fill:#1f6f8b"/>
+<path d="M 173 52 L 322 52 L 322 42 L 173 42 z" style="fill:#1f6f8b"/>
+<path d="M 173 40 L 359 40 L 359 31 L 173 31 z" style="fill:#1f6f8b"/>
+<defs>
+<path id="mfb6f467541" d="M 0 0 L 0 4" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#mfb6f467541" x="107" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="107" y="246">−20</text>
+<use xlink:href="#mfb6f467541" x="173" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="173" y="246">0</text>
+<use xlink:href="#mfb6f467541" x="240" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="240" y="246">20</text>
+<use xlink:href="#mfb6f467541" x="307" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="307" y="246">40</text>
+<use xlink:href="#mfb6f467541" x="374" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="374" y="246">60</text>
+<text style="font-size:9px; text-anchor:middle" x="246" y="259">Profit ($k)</text>
+<defs>
+<path id="m11b6df2cda" d="M 0 0 L -4 0" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#m11b6df2cda" x="67" y="218" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="221">Tables</text>
+<use xlink:href="#m11b6df2cda" x="67" y="207" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="210">Bookcases</text>
+<use xlink:href="#m11b6df2cda" x="67" y="195" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="199">Supplies</text>
+<use xlink:href="#m11b6df2cda" x="67" y="184" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="187">Fasteners</text>
+<use xlink:href="#m11b6df2cda" x="67" y="172" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="176">Machines</text>
+<use xlink:href="#m11b6df2cda" x="67" y="161" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="164">Labels</text>
+<use xlink:href="#m11b6df2cda" x="67" y="150" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="153">Art</text>
+<use xlink:href="#m11b6df2cda" x="67" y="138" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="142">Envelopes</text>
+<use xlink:href="#m11b6df2cda" x="67" y="127" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="130">Furnishings</text>
+<use xlink:href="#m11b6df2cda" x="67" y="115" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="119">Appliances</text>
+<use xlink:href="#m11b6df2cda" x="67" y="104" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="107">Storage</text>
+<use xlink:href="#m11b6df2cda" x="67" y="93" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="96">Chairs</text>
+<use xlink:href="#m11b6df2cda" x="67" y="81" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="85">Binders</text>
+<use xlink:href="#m11b6df2cda" x="67" y="70" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="73">Paper</text>
+<use xlink:href="#m11b6df2cda" x="67" y="58" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="62">Accessories</text>
+<use xlink:href="#m11b6df2cda" x="67" y="47" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="50">Phones</text>
+<use xlink:href="#m11b6df2cda" x="67" y="36" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="60" y="39">Copiers</text>
+<path d="M 173 232 L 173 21" style="fill:none;stroke:#333333;stroke-width:0.6;stroke-linecap:square"/>
+<path d="M 67 232 L 67 21" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<path d="M 67 232 L 424 232" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<text style="font-size:6px; text-anchor:end" x="111" y="220">26% disc</text>
+<text style="font-size:6px; text-anchor:end" x="159" y="208">21% disc</text>
+<text style="font-size:6px; text-anchor:end" x="166" y="197">8% disc</text>
+<text style="font-size:6px; text-anchor:start" x="180" y="185">8% disc</text>
+<text style="font-size:6px; text-anchor:start" x="188" y="174">31% disc</text>
+<text style="font-size:6px; text-anchor:start" x="195" y="163">7% disc</text>
+<text style="font-size:6px; text-anchor:start" x="199" y="151">7% disc</text>
+<text style="font-size:6px; text-anchor:start" x="200" y="140">8% disc</text>
+<text style="font-size:6px; text-anchor:start" x="220" y="128">14% disc</text>
+<text style="font-size:6px; text-anchor:start" x="237" y="117">17% disc</text>
+<text style="font-size:6px; text-anchor:start" x="248" y="106">7% disc</text>
+<text style="font-size:6px; text-anchor:start" x="266" y="94">17% disc</text>
+<text style="font-size:6px; text-anchor:start" x="278" y="83">37% disc</text>
+<text style="font-size:6px; text-anchor:start" x="290" y="71">7% disc</text>
+<text style="font-size:6px; text-anchor:start" x="317" y="60">8% disc</text>
+<text style="font-size:6px; text-anchor:start" x="325" y="49">15% disc</text>
+<text style="font-size:6px; text-anchor:start" x="362" y="37">16% disc</text>
+<text style="font-size:10.8px; text-anchor:middle" x="246" y="15">Profit by sub-category (avg discount)</text>
+</svg>
