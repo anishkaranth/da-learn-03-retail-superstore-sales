@@ -1,0 +1,52 @@
+{
+ "compared_at_ist": "2026-10-02 21:28 IST",
+ "row_counts": [
+   {"table": "stg_orders", "duckdb_rows": 9994, "databricks_rows": 9994, "match": true},
+   {"table": "stg_returns", "duckdb_rows": 800, "databricks_rows": 800, "match": true},
+   {"table": "stg_people", "duckdb_rows": 4, "databricks_rows": 4, "match": true},
+   {"table": "cln_orders", "duckdb_rows": 9993, "databricks_rows": 9993, "match": true},
+   {"table": "cln_returns", "duckdb_rows": 296, "databricks_rows": 296, "match": true},
+   {"table": "cln_people", "duckdb_rows": 4, "databricks_rows": 4, "match": true},
+   {"table": "fact_sales", "duckdb_rows": 9993, "databricks_rows": 9993, "match": true},
+   {"table": "dim_date", "duckdb_rows": 1236, "databricks_rows": 1236, "match": true},
+   {"table": "dim_customer", "duckdb_rows": 793, "databricks_rows": 793, "match": true},
+   {"table": "dim_product", "duckdb_rows": 1894, "databricks_rows": 1894, "match": true},
+   {"table": "dim_geography", "duckdb_rows": 632, "databricks_rows": 632, "match": true},
+   {"table": "dim_ship_mode", "duckdb_rows": 4, "databricks_rows": 4, "match": true}
+  ],
+ "table_comparisons": {
+  "a_kpi_headline": {
+   "rows_databricks": 1,
+   "rows_duckdb": 1,
+   "cell_diffs": []
+  },
+  "a_region_performance": {
+   "rows_databricks": 4,
+   "rows_duckdb": 4,
+   "cell_diffs": []
+  },
+  "a_discount_impact": {
+   "rows_databricks": 6,
+   "rows_duckdb": 6,
+   "cell_diffs": []
+  },
+  "a_ship_mode": {
+   "rows_databricks": 4,
+   "rows_duckdb": 4,
+   "cell_diffs": []
+  },
+  "dq_assertions": {
+   "rows_databricks": 12,
+   "rows_duckdb": 12,
+   "cell_diffs": []
+  },
+  "dq_issues": {
+   "rows_databricks": 17,
+   "rows_duckdb": 17,
+   "cell_diffs": [
+     {"row": "orders: profit outside p1-p99 (kept)", "col": "affected_rows", "databricks": "198", "duckdb": "200"}
+    ]
+  }
+ },
+ "all_row_counts_match": true
+}
