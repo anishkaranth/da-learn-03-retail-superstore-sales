@@ -1,0 +1,32 @@
+{
+ "project": "da-learn-03-retail-superstore-sales",
+ "dataset": "Tableau Sample Superstore (US) - Orders / Returns / People (Kaggle: vivek468/superstore-dataset-final)",
+ "units": "USD",
+ "raw_files": ["orders.csv", "returns.csv", "people.csv"],
+ "star": ["fact_sales", "dim_date", "dim_customer", "dim_product", "dim_geography", "dim_ship_mode"],
+ "core_tables": ["stg_orders", "stg_returns", "stg_people", "cln_orders", "cln_returns", "cln_people",
+                 "fact_sales", "dim_date", "dim_customer", "dim_product", "dim_geography", "dim_ship_mode"],
+ "compare_tables": ["a_kpi_headline", "a_region_performance", "a_discount_impact", "a_ship_mode", "dq_assertions", "dq_issues"],
+ "shot_config": {"sql_dialect": "Spark/Databricks SQL (+ DuckDB shims in 00)",
+                 "margin_definition": "100 * SUM(profit) / SUM(sales)",
+                 "return_rate_definition": "share of distinct orders listed in the Returns sheet",
+                 "outlier_rule": "sales > Q3 + 3*IQR (flag only)",
+                 "sample_rule": "numeric part of order_id % 160 = 0 (all lines of those orders)"},
+ "shot_headline": ["order_lines", "orders", "customers", "total_sales", "total_profit", "profit_margin_pct",
+                   "avg_order_value", "avg_discount_pct", "loss_line_pct", "order_return_rate_pct", "avg_ship_days",
+                   "first_order_date", "last_order_date"],
+ "shot_queries": {
+   "region_performance": "SELECT region, regional_manager, sales, profit, margin_pct FROM a_region_performance ORDER BY profit DESC",
+   "discount_impact": "SELECT discount_band, order_lines, margin_pct, loss_line_pct FROM a_discount_impact ORDER BY discount_band",
+   "ship_mode": "SELECT ship_mode, orders, avg_ship_days, margin_pct FROM a_ship_mode ORDER BY service_level_rank",
+   "bottom3_subcategories": "SELECT sub_category, profit, margin_pct, avg_discount_pct FROM a_discount_by_subcategory ORDER BY profit LIMIT 3"
+ },
+ "databricks": {
+   "catalog": "workspace", "schema": "da_learn_03",
+   "title": "Retail Superstore sales analysis",
+   "notebook": "superstore_pipeline_notebook",
+   "dashboard_file": "superstore_sales_dashboard.lvdash.json",
+   "dashboard_name": "da-learn-03 Retail Superstore sales",
+   "staging": {"stg_orders": {"file": "orders.csv"}, "stg_returns": {"file": "returns.csv"}, "stg_people": {"file": "people.csv"}}
+ }
+}
