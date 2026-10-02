@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="443.580156pt" height="268.279016pt" viewBox="0 0 443.580156 268.279016" version="1.1" font-family="sans-serif">
+<defs>
+<style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+</defs>
+<path d="M 0 268 L 444 268 L 444 0 L 0 0 z" style="fill:#ffffff"/>
+<path d="M 79 232 L 436 232 L 436 21 L 79 21 z" style="fill:#ffffff"/>
+<path d="M 184 223 L 119 223 L 119 207 L 184 207 z" style="fill:#e07a5f"/>
+<path d="M 184 203 L 141 203 L 141 187 L 184 187 z" style="fill:#e07a5f"/>
+<path d="M 184 183 L 144 183 L 144 168 L 184 168 z" style="fill:#e07a5f"/>
+<path d="M 184 164 L 152 164 L 152 148 L 184 148 z" style="fill:#e07a5f"/>
+<path d="M 184 144 L 165 144 L 165 129 L 184 129 z" style="fill:#e07a5f"/>
+<path d="M 184 125 L 231 125 L 231 109 L 184 109 z" style="fill:#1f6f8b"/>
+<path d="M 184 105 L 246 105 L 246 90 L 184 90 z" style="fill:#1f6f8b"/>
+<path d="M 184 86 L 269 86 L 269 70 L 184 70 z" style="fill:#1f6f8b"/>
+<path d="M 184 66 L 372 66 L 372 51 L 184 51 z" style="fill:#1f6f8b"/>
+<path d="M 184 47 L 378 47 L 378 31 L 184 31 z" style="fill:#1f6f8b"/>
+<defs>
+<path id="m50e68554ce" d="M 0 0 L 0 4" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#m50e68554ce" x="82" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="82" y="246">−40</text>
+<use xlink:href="#m50e68554ce" x="133" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="133" y="246">−20</text>
+<use xlink:href="#m50e68554ce" x="184" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="184" y="246">0</text>
+<use xlink:href="#m50e68554ce" x="235" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="235" y="246">20</text>
+<use xlink:href="#m50e68554ce" x="286" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="286" y="246">40</text>
+<use xlink:href="#m50e68554ce" x="336" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="336" y="246">60</text>
+<use xlink:href="#m50e68554ce" x="387" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="387" y="246">80</text>
+<text style="font-size:9px; text-anchor:middle" x="258" y="259">Profit ($k)</text>
+<defs>
+<path id="m72432b70b3" d="M 0 0 L -4 0" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#m72432b70b3" x="79" y="215" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="218">Texas</text>
+<use xlink:href="#m72432b70b3" x="79" y="195" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="199">Ohio</text>
+<use xlink:href="#m72432b70b3" x="79" y="176" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="179">Pennsylvania</text>
+<use xlink:href="#m72432b70b3" x="79" y="156" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="159">Illinois</text>
+<use xlink:href="#m72432b70b3" x="79" y="137" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="140">North Carolina</text>
+<use xlink:href="#m72432b70b3" x="79" y="117" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="120">Virginia</text>
+<use xlink:href="#m72432b70b3" x="79" y="97" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="101">Michigan</text>
+<use xlink:href="#m72432b70b3" x="79" y="78" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="81">Washington</text>
+<use xlink:href="#m72432b70b3" x="79" y="58" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="62">New York</text>
+<use xlink:href="#m72432b70b3" x="79" y="39" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="72" y="42">California</text>
+<path d="M 184 232 L 184 21" style="fill:none;stroke:#333333;stroke-width:0.6;stroke-linecap:square"/>
+<path d="M 79 232 L 79 21" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<path d="M 79 232 L 436 232" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<text style="font-size:6px; text-anchor:end" x="116" y="216">37% disc</text>
+<text style="font-size:6px; text-anchor:end" x="138" y="197">32% disc</text>
+<text style="font-size:6px; text-anchor:end" x="142" y="177">33% disc</text>
+<text style="font-size:6px; text-anchor:end" x="149" y="158">39% disc</text>
+<text style="font-size:6px; text-anchor:end" x="162" y="138">28% disc</text>
+<text style="font-size:6px; text-anchor:start" x="234" y="119">0% disc</text>
+<text style="font-size:6px; text-anchor:start" x="249" y="99">1% disc</text>
+<text style="font-size:6px; text-anchor:start" x="271" y="79">6% disc</text>
+<text style="font-size:6px; text-anchor:start" x="375" y="60">6% disc</text>
+<text style="font-size:6px; text-anchor:start" x="381" y="40">7% disc</text>
+<text style="font-size:10.8px; text-anchor:middle" x="258" y="15">Top 5 / bottom 5 states by profit</text>
+</svg>
