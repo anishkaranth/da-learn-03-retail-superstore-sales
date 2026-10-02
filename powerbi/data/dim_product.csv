@@ -1,0 +1,64 @@
+product_key,product_id,product_name,category,sub_category
+1,FUR-BO-10000468,O'Sullivan 2-Shelf Heavy-Duty Bookcases,Furniture,Bookcases
+2,FUR-CH-10004983,Office Star - Mid Back Dual function Ergonomic High Back Chair with 2-Way Adjustable Arms,Furniture,Chairs
+3,FUR-FU-10000305,"Tenex V2T-RE Standard Weight Series Chair Mat, 45"" x 53"", Lip 25"" x 12""",Furniture,Furnishings
+4,FUR-FU-10001057,Tensor Track Tree Floor Lamp,Furniture,Furnishings
+5,FUR-FU-10001876,"Computer Room Manger, 14""",Furniture,Furnishings
+6,FUR-FU-10002878,"Seth Thomas 14"" Day/Date Wall Clock",Furniture,Furnishings
+7,FUR-FU-10003247,36X48 HARDFLOOR CHAIRMAT,Furniture,Furnishings
+8,FUR-FU-10003806,"Tenex Chairmat w/ Average Lip, 45"" x 53""",Furniture,Furnishings
+9,FUR-FU-10004665,"3M Polarizing Task Lamp with Clamp Arm, Light Gray",Furniture,Furnishings
+10,FUR-TA-10003238,"Chromcraft Bull-Nose Wood 48"" x 96"" Rectangular Conference Tables",Furniture,Tables
+11,OFF-AP-10002082,Holmes HEPA Air Purifier,Office Supplies,Appliances
+12,OFF-AP-10004980,3M Replacement Filter for Office Air Cleaner for 20' x 33' Room,Office Supplies,Appliances
+13,OFF-AR-10001044,"BOSTON Ranger #55 Pencil Sharpener, Black",Office Supplies,Art
+14,OFF-AR-10001419,Newell 325,Office Supplies,Art
+15,OFF-AR-10002135,Boston Heavy-Duty Trimline Electric Pencil Sharpeners,Office Supplies,Art
+16,OFF-AR-10003183,Avery Fluorescent Highlighter Four-Color Set,Office Supplies,Art
+17,OFF-AR-10003876,"Avery Hi-Liter GlideStik Fluorescent Highlighter, Yellow Ink",Office Supplies,Art
+18,OFF-AR-10004010,Hunt Boston Vacuum Mount KS Pencil Sharpener,Office Supplies,Art
+19,OFF-BI-10000201,"Avery Triangle Shaped Sheet Lifters, Black, 2/Pack",Office Supplies,Binders
+20,OFF-BI-10000778,GBC VeloBinder Electric Binding Machine,Office Supplies,Binders
+21,OFF-BI-10001510,Deluxe Heavy-Duty Vinyl Round Ring Binder,Office Supplies,Binders
+22,OFF-BI-10001757,Pressboard Hanging Data Binders for Unburst Sheets,Office Supplies,Binders
+23,OFF-BI-10002353,GBC VeloBind Cover Sets,Office Supplies,Binders
+24,OFF-BI-10003314,Tuff Stuff Recycled Round Ring Binders,Office Supplies,Binders
+25,OFF-BI-10003350,Acco Expandable Hanging Binders,Office Supplies,Binders
+26,OFF-BI-10003355,Cardinal Holdit Business Card Pockets,Office Supplies,Binders
+27,OFF-BI-10003429,"Cardinal HOLDit! Binder Insert Strips,Extra Strips",Office Supplies,Binders
+28,OFF-BI-10003925,Fellowes PB300 Plastic Comb Binding Machine,Office Supplies,Binders
+29,OFF-BI-10003982,Wilson Jones Century Plastic Molded Ring Binders,Office Supplies,Binders
+30,OFF-BI-10003984,Lock-Up Easel 'Spel-Binder',Office Supplies,Binders
+31,OFF-BI-10004828,GBC Poly Designer Binding Covers,Office Supplies,Binders
+32,OFF-EN-10001453,"Tyvek Interoffice Envelopes, 9 1/2"" x 12 1/2"", 100/Box",Office Supplies,Envelopes
+33,OFF-EN-10001509,Poly String Tie Envelopes,Office Supplies,Envelopes
+34,OFF-EN-10002621,Staple envelope,Office Supplies,Envelopes
+35,OFF-LA-10000081,Avery 496,Office Supplies,Labels
+36,OFF-LA-10002475,Avery 519,Office Supplies,Labels
+37,OFF-LA-10003930,"Dot Matrix Printer Tape Reel Labels, White, 5000/Box",Office Supplies,Labels
+38,OFF-PA-10000350,"Message Book, Standard Line ""While You Were Out"", 5 1/2"" X 4"", 200 Sets/Book",Office Supplies,Paper
+39,OFF-PA-10000501,Petty Cash Envelope,Office Supplies,Paper
+40,OFF-PA-10001184,Xerox 1903,Office Supplies,Paper
+41,OFF-PA-10001846,Xerox 1899,Office Supplies,Paper
+42,OFF-PA-10003022,Xerox 1992,Office Supplies,Paper
+43,OFF-PA-10003072,"Eureka Recycled Copy Paper 8 1/2"" x 11"", Ream",Office Supplies,Paper
+44,OFF-PA-10004039,Xerox 1882,Office Supplies,Paper
+45,OFF-PA-10004255,Xerox 219,Office Supplies,Paper
+46,OFF-ST-10000798,2300 Heavy-Duty Transfer File Systems by Perma,Office Supplies,Storage
+47,OFF-ST-10002554,Tennsco Industrial Shelving,Office Supplies,Storage
+48,OFF-ST-10002743,SAFCO Boltless Steel Shelving,Office Supplies,Storage
+49,OFF-SU-10001664,Acme Office Executive Series Stainless Steel Trimmers,Office Supplies,Supplies
+50,TEC-AC-10000057,Microsoft Natural Ergonomic Keyboard 4000,Technology,Accessories
+51,TEC-AC-10001772,Memorex Mini Travel Drive 16 GB USB 2.0 Flash Drive,Technology,Accessories
+52,TEC-AC-10002473,Maxell 4.7GB DVD-R,Technology,Accessories
+53,TEC-AC-10002637,Logitech VX Revolution Cordless Laser Mouse for Notebooks (Black),Technology,Accessories
+54,TEC-AC-10003832,Imation 16GB Mini TravelDrive USB 2.0 Flash Drive,Technology,Accessories
+55,TEC-AC-10004469,Microsoft Sculpt Comfort Mouse,Technology,Accessories
+56,TEC-AC-10004633,"Verbatim 25 GB 6x Blu-ray Single Layer Recordable Disc, 3/Pack",Technology,Accessories
+57,TEC-MA-10003589,Cisco 8961 IP Phone Charcoal,Technology,Machines
+58,TEC-PH-10000149,Cisco SPA525G2 IP Phone - Wireless,Technology,Phones
+59,TEC-PH-10001750,Samsung Rugby III,Technology,Phones
+60,TEC-PH-10002200,Aastra 6757i CT Wireless VoIP phone,Technology,Phones
+61,TEC-PH-10002583,iOttie HLCRIO102 Car Mount,Technology,Phones
+62,TEC-PH-10002660,Nortel Networks T7316 E Nt8 B27,Technology,Phones
+63,TEC-PH-10003171,Plantronics Encore H101 Dual Earpieces Headset,Technology,Phones

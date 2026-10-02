@@ -1,0 +1,27 @@
+geo_key,country,region,state,city,postal_code,regional_manager
+1,United States,Central,Illinois,Chicago,60610,Kelly Williams
+2,United States,Central,Michigan,Lincoln Park,48146,Kelly Williams
+3,United States,Central,Missouri,Saint Louis,63116,Kelly Williams
+4,United States,Central,Texas,Dallas,75217,Kelly Williams
+5,United States,Central,Texas,Houston,77036,Kelly Williams
+6,United States,Central,Texas,Houston,77095,Kelly Williams
+7,United States,Central,Texas,Lubbock,79424,Kelly Williams
+8,United States,East,Delaware,Newark,19711,Chuck Magee
+9,United States,East,New York,Long Beach,11561,Chuck Magee
+10,United States,East,New York,New York City,10009,Chuck Magee
+11,United States,East,New York,New York City,10024,Chuck Magee
+12,United States,East,New York,New York City,10035,Chuck Magee
+13,United States,East,Ohio,Akron,44312,Chuck Magee
+14,United States,East,Ohio,Cuyahoga Falls,44221,Chuck Magee
+15,United States,East,Ohio,Newark,43055,Chuck Magee
+16,United States,East,Pennsylvania,Philadelphia,19134,Chuck Magee
+17,United States,South,Alabama,Decatur,35601,Cassandra Brandow
+18,United States,South,Virginia,Suffolk,23434,Cassandra Brandow
+19,United States,South,Virginia,Virginia Beach,23464,Cassandra Brandow
+20,United States,West,Arizona,Mesa,85204,Anna Andreadi
+21,United States,West,California,Brentwood,94513,Anna Andreadi
+22,United States,West,California,San Francisco,94109,Anna Andreadi
+23,United States,West,California,San Francisco,94110,Anna Andreadi
+24,United States,West,California,San Francisco,94122,Anna Andreadi
+25,United States,West,Washington,Everett,98208,Anna Andreadi
+26,United States,West,Washington,Seattle,98115,Anna Andreadi

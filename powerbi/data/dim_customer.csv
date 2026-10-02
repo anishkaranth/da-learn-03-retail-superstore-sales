@@ -1,0 +1,33 @@
+customer_key,customer_id,customer_name,segment
+1,AH-10030,Aaron Hawkins,Corporate
+2,AH-10210,Alan Hwang,Consumer
+3,AS-10090,Adam Shillingsburg,Consumer
+4,AT-10435,Alyssa Tate,Home Office
+5,CB-12025,Cassandra Brandow,Consumer
+6,DH-13075,Dave Hallsten,Corporate
+7,DM-12955,Dario Medina,Corporate
+8,EH-14185,Evan Henry,Consumer
+9,FH-14275,Frank Hawley,Corporate
+10,GD-14590,Giulietta Dortch,Corporate
+11,GT-14635,Grant Thornton,Corporate
+12,HE-14800,Harold Engle,Corporate
+13,KC-16255,Karen Carlisle,Corporate
+14,LS-16945,Linda Southworth,Corporate
+15,LW-17125,Liz Willingham,Consumer
+16,MH-17785,Maya Herman,Corporate
+17,MM-17920,Michael Moore,Consumer
+18,MV-18190,Mike Vittorini,Consumer
+19,PG-18895,Paul Gonzalez,Consumer
+20,RB-19435,Richard Bierner,Consumer
+21,RW-19540,Rick Wilson,Corporate
+22,SC-20440,Shaun Chance,Corporate
+23,SG-20605,Speros Goranitis,Consumer
+24,SH-19975,Sally Hughsby,Corporate
+25,SH-20395,Shahid Hopkins,Consumer
+26,SJ-20125,Sanjit Jacobs,Home Office
+27,SJ-20500,Shirley Jackson,Consumer
+28,SM-20905,Susan MacKendrick,Consumer
+29,SP-20920,Susan Pistek,Consumer
+30,SW-20455,Shaun Weien,Consumer
+31,TC-21475,Tony Chapman,Home Office
+32,TW-21025,Tamara Willingham,Home Office
