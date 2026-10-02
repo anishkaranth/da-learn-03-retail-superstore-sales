@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="461.883906pt" height="268.279016pt" viewBox="0 0 461.883906 268.279016" version="1.1" font-family="sans-serif">
+<defs>
+<style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+</defs>
+<path d="M 0 268 L 462 268 L 462 0 L 0 0 z" style="fill:#ffffff"/>
+<path d="M 98 232 L 455 232 L 455 21 L 98 21 z" style="fill:#ffffff"/>
+<path d="M 98 223 L 179 223 L 179 182 L 98 182 z" style="fill:#1f6f8b"/>
+<path d="M 98 172 L 194 172 L 194 132 L 98 132 z" style="fill:#1f6f8b"/>
+<path d="M 98 122 L 286 122 L 286 81 L 98 81 z" style="fill:#1f6f8b"/>
+<path d="M 98 71 L 321 71 L 321 31 L 98 31 z" style="fill:#1f6f8b"/>
+<defs>
+<path id="ma3006d7d6d" d="M 0 0 L 0 4" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#ma3006d7d6d" x="98" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="98" y="246">0</text>
+<use xlink:href="#ma3006d7d6d" x="139" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="139" y="246">20</text>
+<use xlink:href="#ma3006d7d6d" x="180" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="180" y="246">40</text>
+<use xlink:href="#ma3006d7d6d" x="221" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="221" y="246">60</text>
+<use xlink:href="#ma3006d7d6d" x="262" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="262" y="246">80</text>
+<use xlink:href="#ma3006d7d6d" x="303" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="303" y="246">100</text>
+<use xlink:href="#ma3006d7d6d" x="345" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="345" y="246">120</text>
+<use xlink:href="#ma3006d7d6d" x="386" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="386" y="246">140</text>
+<use xlink:href="#ma3006d7d6d" x="427" y="232" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:middle" x="427" y="246">160</text>
+<text style="font-size:9px; text-anchor:middle" x="276" y="259">Profit ($k)</text>
+<defs>
+<path id="m294268cba2" d="M 0 0 L -4 0" style="stroke:#000000;stroke-width:0.8"/>
+</defs>
+<use xlink:href="#m294268cba2" x="98" y="202" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="91" y="206">Central (Kelly)</text>
+<use xlink:href="#m294268cba2" x="98" y="152" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="91" y="155">South (Cassandra)</text>
+<use xlink:href="#m294268cba2" x="98" y="102" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="91" y="105">East (Chuck)</text>
+<use xlink:href="#m294268cba2" x="98" y="51" style="stroke:#000000;stroke-width:0.8"/>
+<text style="font-size:9px; text-anchor:end" x="91" y="55">West (Anna)</text>
+<path d="M 98 232 L 98 21" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<path d="M 98 232 L 455 232" style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linejoin:miter;stroke-linecap:square"/>
+<text style="font-size:7px; text-anchor:start" x="181" y="204">$39.7k | 7.9% margin</text>
+<text style="font-size:7px; text-anchor:start" x="196" y="154">$46.7k | 11.9% margin</text>
+<text style="font-size:7px; text-anchor:start" x="288" y="103">$91.5k | 13.5% margin</text>
+<text style="font-size:7px; text-anchor:start" x="323" y="53">$108.4k | 14.9% margin</text>
+<text style="font-size:10.8px; text-anchor:middle" x="276" y="15">Profit by region (manager)</text>
+</svg>
