@@ -3,7 +3,8 @@
 
 Rule (deterministic): keep every line of orders whose numeric order number (last 6 digits of order_id, e.g.
 CA-2020-152156 -> 152156) is divisible by 160, the Returns rows for those orders, and all 4 People rows.
-Values are copied verbatim as strings; cleaning happens in sql/02_cleaning.sql.
+Values are copied as strings; the only change is that non-breaking spaces (U+00A0, present in a few product
+names) become plain spaces so the committed CSVs are plain ASCII. All other cleaning is in sql/02_cleaning.sql.
 """
 import pathlib, duckdb
 
@@ -20,4 +21,6 @@ jobs = {
 for name, q in jobs.items():
     con.execute(f"COPY ({q}) TO '{(OUT / name).as_posix()}' (HEADER, DELIMITER ',')")
     n = con.execute(f"SELECT COUNT(*) FROM read_csv('{(OUT / name).as_posix()}', header = true, all_varchar = true)").fetchone()[0]
+    path = OUT / name
+    path.write_text(path.read_text(encoding="utf-8").replace("\u00a0", " "), encoding="utf-8")
     print(f"{name:12s} {n:5d} rows")
