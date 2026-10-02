@@ -1,0 +1,18 @@
+check_name,affected_rows
+RI: fact without customer,0
+RI: fact without geography,0
+RI: fact without product,0
+RI: fact without ship mode,0
+customers: customer_id with >1 name or segment,0
+"orders: exact duplicate lines removed (same order/product/values, different row_id)",1
+orders: lines on returned orders,800
+orders: loss-making lines (profit < 0),1870
+orders: missing postal_code (kept),11
+orders: postal_code with lost leading zero (repaired),438
+orders: profit outside p1-p99 (kept),198
+"orders: sales outlier (> Q3 + 3*IQR, kept)",668
+"orders: sales with float artefacts (>2 dp, rounded)",5296
+orders: ship_date < order_date,0
+products: product_id mapped to >1 product_name,32
+returns: duplicate rows collapsed to order grain,504
+returns: returned orders not found in orders,0

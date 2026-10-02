@@ -1,0 +1,5 @@
+ship_mode,service_level_rank,orders,order_share_pct,avg_ship_days,max_ship_days,sales,profit,margin_pct,order_return_rate_pct
+First Class,2,787,15.71,2.18,4,351428.42,48969.84,13.93,6.86
+Same Day,1,264,5.27,0.04,1,128363.12,15891.76,12.38,7.20
+Second Class,3,964,19.25,3.24,5,459193.43,57446.64,12.51,5.71
+Standard Class,4,2994,59.77,5.01,7,1357934.65,164100.85,12.08,5.61

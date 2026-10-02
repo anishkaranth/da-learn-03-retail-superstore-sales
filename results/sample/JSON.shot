@@ -1,0 +1,132 @@
+{
+  "snapshot": "headline KPIs + key breakdowns + run config",
+  "project": "da-learn-03-retail-superstore-sales",
+  "source_mode": "sample",
+  "config": {
+    "sql_dialect": "Spark/Databricks SQL (+ DuckDB shims in 00)",
+    "margin_definition": "100 * SUM(profit) / SUM(sales)",
+    "return_rate_definition": "share of distinct orders listed in the Returns sheet",
+    "outlier_rule": "sales > Q3 + 3*IQR (flag only)",
+    "sample_rule": "numeric part of order_id % 160 = 0 (all lines of those orders)",
+    "engine": "duckdb 1.5.6"
+  },
+  "headline": {
+    "order_lines": 66,
+    "orders": 33,
+    "customers": 32,
+    "total_sales": 10323.26,
+    "total_profit": 819.95,
+    "profit_margin_pct": 7.94,
+    "avg_order_value": 312.83,
+    "avg_discount_pct": 17.88,
+    "loss_line_pct": 21.21,
+    "order_return_rate_pct": 9.09,
+    "avg_ship_days": 4.11,
+    "first_order_date": "2018-05-22",
+    "last_order_date": "2021-12-25"
+  },
+  "region_performance": [
+    {
+      "region": "East",
+      "regional_manager": "Chuck Magee",
+      "sales": 6625.89,
+      "profit": 353.84,
+      "margin_pct": 5.34
+    },
+    {
+      "region": "South",
+      "regional_manager": "Cassandra Brandow",
+      "sales": 1498.28,
+      "profit": 308.73,
+      "margin_pct": 20.61
+    },
+    {
+      "region": "Central",
+      "regional_manager": "Kelly Williams",
+      "sales": 568.95,
+      "profit": 106.1,
+      "margin_pct": 18.65
+    },
+    {
+      "region": "West",
+      "regional_manager": "Anna Andreadi",
+      "sales": 1630.14,
+      "profit": 51.28,
+      "margin_pct": 3.15
+    }
+  ],
+  "discount_impact": [
+    {
+      "discount_band": "01: 0%",
+      "order_lines": 29,
+      "margin_pct": 19.4,
+      "loss_line_pct": 0.0
+    },
+    {
+      "discount_band": "02: 1-10%",
+      "order_lines": 1,
+      "margin_pct": 14.44,
+      "loss_line_pct": 0.0
+    },
+    {
+      "discount_band": "03: 11-20%",
+      "order_lines": 27,
+      "margin_pct": 12.74,
+      "loss_line_pct": 18.52
+    },
+    {
+      "discount_band": "05: 31-50%",
+      "order_lines": 1,
+      "margin_pct": -35.0,
+      "loss_line_pct": 100.0
+    },
+    {
+      "discount_band": "06: >50%",
+      "order_lines": 8,
+      "margin_pct": -78.77,
+      "loss_line_pct": 100.0
+    }
+  ],
+  "ship_mode": [
+    {
+      "ship_mode": "First Class",
+      "orders": 7,
+      "avg_ship_days": 1.93,
+      "margin_pct": 2.36
+    },
+    {
+      "ship_mode": "Second Class",
+      "orders": 5,
+      "avg_ship_days": 3.4,
+      "margin_pct": 27.3
+    },
+    {
+      "ship_mode": "Standard Class",
+      "orders": 21,
+      "avg_ship_days": 4.83,
+      "margin_pct": 8.9
+    }
+  ],
+  "bottom3_subcategories": [
+    {
+      "sub_category": "Tables",
+      "profit": -347.12,
+      "margin_pct": -35.0,
+      "avg_discount_pct": 40.0
+    },
+    {
+      "sub_category": "Machines",
+      "profit": -164.95,
+      "margin_pct": -73.33,
+      "avg_discount_pct": 70.0
+    },
+    {
+      "sub_category": "Storage",
+      "profit": -131.88,
+      "margin_pct": -19.42,
+      "avg_discount_pct": 20.0
+    }
+  ],
+  "assertions_passed": 12,
+  "assertions_total": 12
+}

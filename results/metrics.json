@@ -1,0 +1,181 @@
+{
+  "project": "da-learn-03-retail-superstore-sales",
+  "dataset": "Tableau Sample Superstore (US) - Orders / Returns / People (Kaggle: vivek468/superstore-dataset-final)",
+  "source_mode": "full",
+  "units": "USD",
+  "kpis": {
+    "order_lines": 9993,
+    "orders": 5009,
+    "customers": 793,
+    "products": 1894,
+    "total_sales": 2296919.61,
+    "total_profit": 286409.08,
+    "profit_margin_pct": 12.47,
+    "avg_order_value": 458.56,
+    "units": 37871,
+    "avg_discount_pct": 15.62,
+    "loss_line_pct": 18.71,
+    "profit_lost_on_loss_lines": 156119.23,
+    "order_return_rate_pct": 5.91,
+    "returned_sales": 180504.29,
+    "avg_ship_days": 3.96,
+    "first_order_date": "2018-01-03",
+    "last_order_date": "2021-12-30"
+  },
+  "table_rows": {
+    "stg_orders": 9994,
+    "stg_returns": 800,
+    "stg_people": 4,
+    "cln_orders": 9993,
+    "cln_returns": 296,
+    "cln_people": 4,
+    "fact_sales": 9993,
+    "dim_date": 1236,
+    "dim_customer": 793,
+    "dim_product": 1894,
+    "dim_geography": 632,
+    "dim_ship_mode": 4
+  },
+  "data_quality": {
+    "row_counts": [
+      {
+        "entity": "orders",
+        "raw_rows": 9994,
+        "distinct_keys": 9994,
+        "clean_rows": 9993,
+        "grain": "order line (row_id)"
+      },
+      {
+        "entity": "returns",
+        "raw_rows": 800,
+        "distinct_keys": 296,
+        "clean_rows": 296,
+        "grain": "returned order"
+      },
+      {
+        "entity": "people",
+        "raw_rows": 4,
+        "distinct_keys": 4,
+        "clean_rows": 4,
+        "grain": "region"
+      },
+      {
+        "entity": "fact_sales",
+        "raw_rows": null,
+        "distinct_keys": null,
+        "clean_rows": 9993,
+        "grain": "order line"
+      },
+      {
+        "entity": "dim_date",
+        "raw_rows": null,
+        "distinct_keys": null,
+        "clean_rows": 1236,
+        "grain": "order date"
+      },
+      {
+        "entity": "dim_customer",
+        "raw_rows": null,
+        "distinct_keys": null,
+        "clean_rows": 793,
+        "grain": "customer_id"
+      },
+      {
+        "entity": "dim_product",
+        "raw_rows": null,
+        "distinct_keys": null,
+        "clean_rows": 1894,
+        "grain": "product_id + product_name"
+      },
+      {
+        "entity": "dim_geography",
+        "raw_rows": null,
+        "distinct_keys": null,
+        "clean_rows": 632,
+        "grain": "region/state/city/postal"
+      },
+      {
+        "entity": "dim_ship_mode",
+        "raw_rows": null,
+        "distinct_keys": null,
+        "clean_rows": 4,
+        "grain": "ship mode"
+      }
+    ],
+    "null_rates": [
+      {
+        "entity": "orders",
+        "column_name": "postal_code",
+        "raw_null_pct": 0.11,
+        "clean_null_pct": 0.11,
+        "treatment": "kept as NULL (Burlington, VT has no code in source); geography matched on NULL-safe key"
+      },
+      {
+        "entity": "orders",
+        "column_name": "order_date",
+        "raw_null_pct": 0.0,
+        "clean_null_pct": 0.0,
+        "treatment": "required; unparseable dates dropped"
+      },
+      {
+        "entity": "orders",
+        "column_name": "sales",
+        "raw_null_pct": 0.0,
+        "clean_null_pct": 0.0,
+        "treatment": "required; rounded to 2 dp (float artefacts like 731.9399999999999)"
+      },
+      {
+        "entity": "orders",
+        "column_name": "ship_mode",
+        "raw_null_pct": 0.0,
+        "clean_null_pct": 0.0,
+        "treatment": "standardised to 4 labels"
+      }
+    ],
+    "issues": {
+      "orders: exact duplicate lines removed (same order/product/values, different row_id)": 1,
+      "orders: missing postal_code (kept)": 11,
+      "orders: postal_code with lost leading zero (repaired)": 438,
+      "orders: sales with float artefacts (>2 dp, rounded)": 5296,
+      "orders: ship_date < order_date": 0,
+      "orders: loss-making lines (profit < 0)": 1870,
+      "orders: sales outlier (> Q3 + 3*IQR, kept)": 668,
+      "orders: profit outside p1-p99 (kept)": 200,
+      "products: product_id mapped to >1 product_name": 32,
+      "customers: customer_id with >1 name or segment": 0,
+      "returns: duplicate rows collapsed to order grain": 504,
+      "returns: returned orders not found in orders": 0,
+      "orders: lines on returned orders": 800,
+      "RI: fact without customer": 0,
+      "RI: fact without product": 0,
+      "RI: fact without geography": 0,
+      "RI: fact without ship mode": 0
+    },
+    "assertions": {
+      "fact_sales.line_id unique": "PASS",
+      "fact_sales.customer_key -> dim_customer": "PASS",
+      "fact_sales.product_key -> dim_product": "PASS",
+      "fact_sales.geo_key -> dim_geography": "PASS",
+      "fact_sales.ship_mode_key -> dim_ship_mode": "PASS",
+      "fact_sales.order_date_key -> dim_date": "PASS",
+      "ship_date >= order_date": "PASS",
+      "discount between 0 and 0.8": "PASS",
+      "sales > 0 and quantity > 0": "PASS",
+      "one manager per region": "PASS",
+      "every region has a manager": "PASS",
+      "fact sales reconcile to clean orders": "PASS"
+    }
+  },
+  "engine": {
+    "duckdb": "1.5.6",
+    "python": "3.13.5"
+  },
+  "sql_timings_s": {
+    "00_duckdb_compat.sql": 0.002,
+    "01_staging.sql": 0.077,
+    "02_cleaning.sql": 0.062,
+    "03_model.sql": 0.036,
+    "04_analysis.sql": 0.051,
+    "05_quality_checks.sql": 0.019
+  }
+}

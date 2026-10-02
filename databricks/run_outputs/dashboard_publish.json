@@ -1,0 +1,10 @@
+{
+ "dashboard_name": "da-learn-03 Retail Superstore sales",
+ "dashboard_id": "01f1be7a298a1d07bf0afd8f05a9c9d0",
+ "workspace_path": "/Shared/da-learn-03-retail-superstore-sales/da-learn-03 Retail Superstore sales.lvdash.json",
+ "published": true,
+ "published_revision_time": "2026-10-02T15:58:54.663Z",
+ "data_widgets": 8,
+ "notebook_path": "/Workspace/Shared/da-learn-03-retail-superstore-sales/superstore_pipeline_notebook",
+ "warehouse": "Serverless Starter Warehouse"
+}

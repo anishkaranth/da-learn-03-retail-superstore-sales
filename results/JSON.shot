@@ -1,0 +1,144 @@
+{
+  "snapshot": "headline KPIs + key breakdowns + run config",
+  "project": "da-learn-03-retail-superstore-sales",
+  "source_mode": "full",
+  "config": {
+    "sql_dialect": "Spark/Databricks SQL (+ DuckDB shims in 00)",
+    "margin_definition": "100 * SUM(profit) / SUM(sales)",
+    "return_rate_definition": "share of distinct orders listed in the Returns sheet",
+    "outlier_rule": "sales > Q3 + 3*IQR (flag only)",
+    "sample_rule": "numeric part of order_id % 160 = 0 (all lines of those orders)",
+    "engine": "duckdb 1.5.6"
+  },
+  "headline": {
+    "order_lines": 9993,
+    "orders": 5009,
+    "customers": 793,
+    "total_sales": 2296919.61,
+    "total_profit": 286409.08,
+    "profit_margin_pct": 12.47,
+    "avg_order_value": 458.56,
+    "avg_discount_pct": 15.62,
+    "loss_line_pct": 18.71,
+    "order_return_rate_pct": 5.91,
+    "avg_ship_days": 3.96,
+    "first_order_date": "2018-01-03",
+    "last_order_date": "2021-12-30"
+  },
+  "region_performance": [
+    {
+      "region": "West",
+      "regional_manager": "Anna Andreadi",
+      "sales": 725457.92,
+      "profit": 108418.45,
+      "margin_pct": 14.94
+    },
+    {
+      "region": "East",
+      "regional_manager": "Chuck Magee",
+      "sales": 678499.95,
+      "profit": 91534.84,
+      "margin_pct": 13.49
+    },
+    {
+      "region": "South",
+      "regional_manager": "Cassandra Brandow",
+      "sales": 391721.9,
+      "profit": 46749.43,
+      "margin_pct": 11.93
+    },
+    {
+      "region": "Central",
+      "regional_manager": "Kelly Williams",
+      "sales": 501239.84,
+      "profit": 39706.36,
+      "margin_pct": 7.92
+    }
+  ],
+  "discount_impact": [
+    {
+      "discount_band": "01: 0%",
+      "order_lines": 4798,
+      "margin_pct": 29.51,
+      "loss_line_pct": 0.0
+    },
+    {
+      "discount_band": "02: 1-10%",
+      "order_lines": 94,
+      "margin_pct": 16.61,
+      "loss_line_pct": 4.26
+    },
+    {
+      "discount_band": "03: 11-20%",
+      "order_lines": 3709,
+      "margin_pct": 11.58,
+      "loss_line_pct": 13.99
+    },
+    {
+      "discount_band": "04: 21-30%",
+      "order_lines": 226,
+      "margin_pct": -10.06,
+      "loss_line_pct": 91.59
+    },
+    {
+      "discount_band": "05: 31-50%",
+      "order_lines": 310,
+      "margin_pct": -24.8,
+      "loss_line_pct": 91.61
+    },
+    {
+      "discount_band": "06: >50%",
+      "order_lines": 856,
+      "margin_pct": -119.2,
+      "loss_line_pct": 100.0
+    }
+  ],
+  "ship_mode": [
+    {
+      "ship_mode": "Same Day",
+      "orders": 264,
+      "avg_ship_days": 0.04,
+      "margin_pct": 12.38
+    },
+    {
+      "ship_mode": "First Class",
+      "orders": 787,
+      "avg_ship_days": 2.18,
+      "margin_pct": 13.93
+    },
+    {
+      "ship_mode": "Second Class",
+      "orders": 964,
+      "avg_ship_days": 3.24,
+      "margin_pct": 12.51
+    },
+    {
+      "ship_mode": "Standard Class",
+      "orders": 2994,
+      "avg_ship_days": 5.01,
+      "margin_pct": 12.08
+    }
+  ],
+  "bottom3_subcategories": [
+    {
+      "sub_category": "Tables",
+      "profit": -17725.48,
+      "margin_pct": -8.56,
+      "avg_discount_pct": 26.13
+    },
+    {
+      "sub_category": "Bookcases",
+      "profit": -3472.56,
+      "margin_pct": -3.02,
+      "avg_discount_pct": 21.11
+    },
+    {
+      "sub_category": "Supplies",
+      "profit": -1189.1,
+      "margin_pct": -2.55,
+      "avg_discount_pct": 7.68
+    }
+  ],
+  "assertions_passed": 12,
+  "assertions_total": 12
+}

@@ -1,0 +1,2 @@
+order_lines,orders,customers,products,total_sales,total_profit,profit_margin_pct,avg_order_value,units,avg_discount_pct,loss_line_pct,profit_lost_on_loss_lines,order_return_rate_pct,returned_sales,avg_ship_days,first_order_date,last_order_date
+9993,5009,793,1894,2296919.62,286409.08,12.47,458.56,37871,15.62,18.71,156119.23,5.91,180504.29,3.96,2018-01-03,2021-12-30

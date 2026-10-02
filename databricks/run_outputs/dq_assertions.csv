@@ -1,0 +1,13 @@
+check_name,failed_rows,status
+discount between 0 and 0.8,0,PASS
+every region has a manager,0,PASS
+fact sales reconcile to clean orders,0,PASS
+fact_sales.customer_key -> dim_customer,0,PASS
+fact_sales.geo_key -> dim_geography,0,PASS
+fact_sales.line_id unique,0,PASS
+fact_sales.order_date_key -> dim_date,0,PASS
+fact_sales.product_key -> dim_product,0,PASS
+fact_sales.ship_mode_key -> dim_ship_mode,0,PASS
+one manager per region,0,PASS
+sales > 0 and quantity > 0,0,PASS
+ship_date >= order_date,0,PASS
